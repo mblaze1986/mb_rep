@@ -554,11 +554,15 @@ body {
 }
 .services__btn {
     display: block;
+    width: 250px;
     margin: 30px auto 0;
     padding: 15px;
     background: #f2a01b;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
     font-size: 22px;
+    color: black;
     border-radius: 5px;
     transition-duration: 0.2s;
 }
@@ -723,21 +727,29 @@ body {
 }
 .contacts__info-text {
     font-size: 18px;
-    text-decoration: none;
 }
 @media (max-width: 575px) {
     .contacts__info-text {
         font-size: 16px;
     }
 }
+.contacts__info-text a {
+    color: cornsilk;
+}
+.contacts__info-text a:hover {
+    text-decoration: underline;
+}
 .contacts__btn {
     display: block;
+    text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     font-size: 18px;
     width: 200px;
     padding: 10px 0;
     border-radius: 5px;
     background: #f2a01b;
+    color: black;
     transition-duration: 0.2s;
 }
 .contacts__btn:hover {
