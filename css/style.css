@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
 * {
     padding: 0;
     margin: 0;
@@ -562,6 +562,7 @@ body {
     text-decoration: none;
     text-align: center;
     font-size: 22px;
+    font-weight: 500;
     color: black;
     border-radius: 5px;
     transition-duration: 0.2s;
@@ -750,6 +751,7 @@ body {
     border-radius: 5px;
     background: #f2a01b;
     color: black;
+    font-weight: 500;
     transition-duration: 0.2s;
 }
 .contacts__btn:hover {
@@ -857,6 +859,7 @@ body {
     text-transform: uppercase;
     border-radius: 5px;
     background: #f2a01b;
+    font-weight: 500;
     transition-duration: 0.2s;
 }
 .backform__btn:hover {
