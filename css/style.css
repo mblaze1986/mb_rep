@@ -731,6 +731,7 @@ body {
 }
 .contacts__info-text {
     font-size: 18px;
+    text-decoration: none;
 }
 @media (max-width: 575px) {
     .contacts__info-text {
