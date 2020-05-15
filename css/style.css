@@ -596,7 +596,7 @@ body, html {
 }
 @media (max-width: 575px) {
     .crue__item {
-        width: 100%;
+        width: 50%;
     }
 }
 .crue__image {
@@ -608,7 +608,7 @@ body, html {
 @media (max-width: 575px) {
     .crue__image {
         margin: 0px auto 20px;
-        width: 70%;
+        width: 90%;
     }
 }
 .crue__title {
@@ -620,10 +620,16 @@ body, html {
 @media (max-width: 575px) {
     .crue__title {
         margin: 0px auto 10px;
+        font-size: 16px;
     }
 }
 .crue__text {
     text-align: center;
+}
+@media (max-width: 575px) {
+    .crue__text {
+        font-size: 14px;
+    }
 }
 
 .advantages__body {
