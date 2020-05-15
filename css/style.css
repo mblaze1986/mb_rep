@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-body {
+body, html {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     color: cornsilk;
@@ -426,6 +426,8 @@ body {
     background: #f2a01b;
     width: 15px;
     height: 15px;
+    margin: 0px 0 5px;
+    /*этот марджин для центрирования кнопок по одной линии*/
 }
 
 .studio__body {
