@@ -45,6 +45,10 @@ $(document).ready(function () {
     $("#header").toggleClass("active");
   });
 
+  $('.header__link').click(function (event) {
+    $('#nav_toggle,#menu').removeClass('active');
+  });
+
 
   $("[data-slider]").slick({
     arrows: false,
